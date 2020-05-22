@@ -11,6 +11,12 @@ namespace FileUploadTest.Controllers
         // GET: Employee
         public ActionResult Index()
         {
+            ViewBag.Message = "Hello!";
+            return View();
+        }
+
+        public ActionResult Create()
+        {
             return View();
         }
     }
