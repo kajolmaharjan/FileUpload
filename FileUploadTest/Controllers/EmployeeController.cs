@@ -14,5 +14,10 @@ namespace FileUploadTest.Controllers
             ViewBag.Message = "Hello!";
             return View();
         }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
     }
 }
